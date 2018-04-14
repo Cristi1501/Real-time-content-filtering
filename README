@@ -1,0 +1,22 @@
+========================
+ TUDOR Cristian - 321CB
+========================
+
+
+Implementarea rezolvarii acestei teme este explicata pe cat de mult posibil in
+Javadoc. Dupa ce am facut parsarea expresiei am creat clasele pentru pattern-ul
+Visitor si am format Tree-ul. Apoi am inceput crearea observatorilor si 
+adaugarea lor in lista. Dupa aceea am creat TreeMap-ul care retine numele
+feed-urilor si valorile (obiect de tip ObserverValue). 
+
+Pe parcurs ce verificam testele am facut modificarile necesare: Am creat lista 
+de feed-uri pentru a le adauga observatorilor creati mai tarziu, am creat lista
+de id-uri pentru a sti mereu id-ul observer-ului, am creat lista cu elemente de
+tip PrintStock pentru a sti mereu cand am voie sa printez acel observer sau 
+cand il printez pentru prima oara, am creat lista de feed-uri neacceptate si 
+HashMap-ul cu cheia de acest tip si valoarea de tip Integer (memoreaza numarul 
+de feed-uri apelate si neacceptate ale unui observer). 
+
+Folosindu-ma de aceste elemente am implementat rezolvarea temei. Cam asta ar fi
+tot legat de modul de implementare, restul detaliilor, cum am spus, se afla in
+Javadoc.
